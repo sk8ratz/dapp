@@ -214,13 +214,13 @@ useEffect(() => {
 
 						<center>
 						<p className="thesupply">
-						{sk8Ratz && supplyAvailable} remaining
+						{sk8Ratz && supplyAvailable} / 3000 available
 						</p>
 						</center>
 
 						<Col style={{ marginTop: "15px" }}>
 						<center>
-							{sk8Ratz &&
+							
 								<a
 									href={`${explorerURL}/address/${sk8Ratz._address}`}
 									target='_blank'
@@ -229,7 +229,7 @@ useEffect(() => {
 								</a>
 
 
-							}</center>
+							</center>
 							
 							<center>
 							<p className ="smartcontractaddress2">
