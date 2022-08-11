@@ -226,17 +226,26 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
 }
 
+.thesupply{
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+
+
 .smartcontractaddress1{
     font-family: source-code-pro,monospace;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     text-align: center;
     color: black;
     line-height: 24px;
     word-wrap:break-word;
-
-
 }
 
 .smartcontractaddress2{
@@ -247,7 +256,6 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     text-align: center;
     color: black;
     line-height: 15px;
-
 }
 
 
@@ -379,5 +387,3 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
         margin-top: 10px;        
     }
 }
-
-
