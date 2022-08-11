@@ -214,22 +214,15 @@ useEffect(() => {
 
 						<center>
 						<p className="thesupply">
-						{sk8Ratz && supplyAvailable} / 3000 available
+						{sk8Ratz && supplyAvailable} / 3000 remaining
 						</p>
 						</center>
 
 						<Col style={{ marginTop: "15px" }}>
 						<center>
 							
-								<a
-									href={`${explorerURL}/address/${sk8Ratz._address}`}
-									target='_blank'
-									className='smartcontractaddress1'>
-									{sk8Ratz._address}
-								</a>
-
-
-							</center>
+							<a href="https://etherscan.io/address/0x3431406545AD80b6a216DA322736C2Bf56962b02" target="_blank" className="smartcontractaddress1" rel="noopener noreferrer">
+							0x3431406545AD80b6a216DA322736C2Bf56962b02</a></center>
 							
 							<center>
 							<p className ="smartcontractaddress2">
