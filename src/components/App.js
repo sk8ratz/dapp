@@ -240,7 +240,7 @@ useEffect(() => {
 			<footer>
 				<hr></hr>
 					<center> <p> 
-						<a href="https://sk8ratz.io">SK8 RATZ</a> is designed and developed by sk8rz for everyone. Licensed under 
+						<a href="https://sk8ratz.io">SK8 RATZ</a> is icensed under
 						<a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> CC BY-SA 4.0</a>
 					</p> </center>
 			</footer>
