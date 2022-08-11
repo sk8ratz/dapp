@@ -1,0 +1,383 @@
+/* Styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rubik:wght@300;400;700&display=swap');
+@import url("https://use.typekit.net/pwz3byy.css");
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hi+Melody&family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Grape+Nuts&family=Hi+Melody&family=Mansalva&family=Nanum+Brush+Script&display=swap');
+
+:root {
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-yellow: #8ff80a;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+
+html {
+    font-family: "Rubik" !important;
+    font-weight: 400;
+    height: -webkit-fill-available;
+}
+
+
+body {
+    background-size: cover;
+    background-position: center, center;
+    background-image: url(images/bg-img.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 0.5px solid black;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: auto;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    min-width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+
+
+
+.welcome {
+    min-height: 10vh;
+    scroll-snap-align: start;
+}
+
+
+.pleaseConnect {
+    font-family: source-code-pro,monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8ff80a;
+    margin-top: 25px;
+    }
+    
+
+/* TEXT STYLES */
+
+
+.sub-header {
+    font-family: source-code-pro,monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    /*font-size: clamp(2rem, 5vw, 4rem);*/
+   /* transform: rotate(-4deg) translateX(2.5em) translateY(-0.5em);*/
+   /*padding-left: .8em;*/
+
+}
+
+
+
+
+/* LINK / BUTTON STYLES */
+
+p5 {
+    color: white;
+    margin: auto;
+}
+
+a {
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+
+    transition: all 250ms ease;
+}
+
+a:hover {
+    color: #8ff80a;
+}
+
+
+.qty2{
+
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: .5em;;
+    font-size: 16px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin-right: 5px;
+
+
+}
+
+.button {
+
+    height: 42px;
+    width: 100px;
+
+
+    background-color: black;
+    color: #8ff80a;
+
+    border: none;
+    border-radius: .5em;
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+
+
+}
+
+.button:hover {
+
+    background: #8ff80a;
+    color: black;
+
+}
+
+
+.mint-button {
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+
+    background-color: black;
+    color: #8ff80a;
+    border: none;
+    border-radius: .5em;;
+
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+
+.mint-button:hover {
+    background: #8ff80a;
+    color: black;
+}
+
+
+
+/* IMAGE STYLES */
+
+
+.twitter-logo {
+    max-width: 30px;
+    max-height: 30px;
+filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%) contrast(115%);    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.twitter-logo:hover {
+
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.os-logo {
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+    float: left;
+filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%) contrast(115%);}
+
+.os-logo:hover {
+
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.smartcontractaddress1{
+    font-family: source-code-pro,monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    line-height: 24px;
+    word-wrap:break-word;
+
+
+}
+
+.smartcontractaddress2{
+    font-family: source-code-pro,monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    line-height: 15px;
+
+}
+
+
+
+.mainview {
+    max-width: 450px;
+    max-height: 70vh;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showcase {
+    max-width: 450px;
+    max-height: 70vh;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.banner2{
+    max-width: 30%;
+    margin-top: 10px;
+
+
+    }
+
+.text-center{
+     font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.mintPortal{
+     margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.linebreak{
+    line-height: 16px;
+}
+
+/* Dynamic web flow */
+
+@media screen and (max-width: 600px) {
+    body {
+    background-size: cover;
+    background-position: center, center;
+    background-image: url(images/mobileBG.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner2 {
+        max-width: 47%;
+        margin-top: 18px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .twitter-logo {
+        max-width: 25px;
+        margin-left: 20px;
+        margin-top: 39px;
+    
+       
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .os-logo {
+        max-width: 25px;
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        height: 36px;
+        width: 75px;
+        float: right;
+        margin-right: 25px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .smartcontractaddress1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .smartcontractaddress2 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .showcase {
+
+        max-width: 450px;
+        max-height: 70vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;        
+    }
+}
+
+
