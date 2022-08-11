@@ -155,7 +155,7 @@ useEffect(() => {
 					<a href="http://www.twitter.com/sk8_ratz" target="_blank" rel="noopener noreferrer">
                 	<img src={twitter} className="twitter-logo" alt=""></img> </a>
 					
-					<a href="http://www.sk8ratz.io/" target="_blank" rel="noopener noreferrer">
+					<a href="http://www.sk8ratz.app/" target="_blank" rel="noopener noreferrer">
                 	<img src={banner2} className="banner2" alt=""></img> </a>
 					
 					
