@@ -214,7 +214,7 @@ useEffect(() => {
 
 						<center>
 						<p className="thesupply">
-						{sk8Ratz && supplyAvailable} / 3000 remaining
+						{supplyAvailable} / 3000 remaining
 						</p>
 						</center>
 
