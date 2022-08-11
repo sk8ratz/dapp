@@ -240,7 +240,7 @@ useEffect(() => {
 			<footer>
 				<hr></hr>
 					<center> <p> 
-						<a href="https://sk8ratz.io">SK8 RATZ</a> is icensed under
+						SK8 RATZ is icensed under
 						<a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> CC BY-SA 4.0</a>
 					</p> </center>
 			</footer>
