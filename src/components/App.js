@@ -46,6 +46,7 @@ function App() {
 			const totalSupply = await sk8Ratz.methods.totalSupply().call()
 			setSupplyAvailable(maxSupply - totalSupply)
 
+
 			
 			if (_account) {
 				const ownerOf = await sk8Ratz.methods.walletOfOwner(_account).call()
@@ -180,10 +181,7 @@ useEffect(() => {
 					<img src={showcase} alt="Sk8 Ratz" className='showcase'></img>
 					</center>
 
-					<center>
 					
-						
-					  </center>
 
 
 						<div>
@@ -214,7 +212,13 @@ useEffect(() => {
 
 							)}
 
-						<Col style={{ marginTop: "25px" }}>
+						<center>
+						<p className="thesupply">
+						{sk8Ratz && supplyAvailable} remaining
+						</p>
+						</center>
+
+						<Col style={{ marginTop: "15px" }}>
 						<center>
 							{sk8Ratz &&
 								<a
@@ -232,8 +236,7 @@ useEffect(() => {
 							<a href="https://etherscan.io/address/0x3431406545AD80b6a216DA322736C2Bf56962b02" target="_blank" rel="noopener noreferrer">
 							[VERIFIED SMART CONTRACT ADDRESS]</a></p></center>
 						</Col>
-				
-					
+						
 				</div>
 
 			
