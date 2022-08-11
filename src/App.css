@@ -227,10 +227,11 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 }
 
 .thesupply{
-
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
+    font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+    font-size: 12px;
     text-align: center;
     color: black;
     margin-top: 5px;
@@ -356,7 +357,11 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     }
 }
 
-
+@media screen and (max-width: 600px) {
+    .thesupply {
+        font-size: 12px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .smartcontractaddress1 {
@@ -366,7 +371,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
 @media screen and (max-width: 600px) {
     .smartcontractaddress2 {
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
@@ -387,3 +392,5 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
         margin-top: 10px;        
     }
 }
+
+
