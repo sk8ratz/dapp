@@ -228,8 +228,9 @@ useEffect(() => {
 							}</center>
 							
 							<center>
+							<p className ="smartcontractaddress2">
 							<a href="https://etherscan.io/address/0x3431406545AD80b6a216DA322736C2Bf56962b02" target="_blank" rel="noopener noreferrer">
-							<p className ="smartcontractaddress2">[VERIFIED SMART CONTRACT ADDRESS]</a></p></center>
+							[VERIFIED SMART CONTRACT ADDRESS]</a></p></center>
 						</Col>
 				
 					
