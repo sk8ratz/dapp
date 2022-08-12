@@ -206,19 +206,7 @@ useEffect(() => {
 									) : (
 										<button onClick={mintNFTHandler} className='mint-button mt-3'>Mint</button>
 									)}
-									
-									{ownerOf.length > 0 &&
-										<p><small>View your 
-											<a
-												href={`${openseaURL}/assets/${sk8Ratz._address}/${ownerOf[0]}`}
-												target='_blank'
-												style={{ display: font-size: '14px', 'inline-block', marginTop: '20px',marginLeft: '3px' }}>
-												SK8 RATZ
-											</a>
-										</small></p>}
-									
 										</center>
-
 								</div>
 
 							)}
@@ -228,6 +216,16 @@ useEffect(() => {
 						2980 / 3000 remaining
 						</p>
 						</center>
+						
+						{ownerOf.length > 0 &&
+										<p><small>View your 
+											<a
+												href={`${openseaURL}/assets/${sk8Ratz._address}/${ownerOf[0]}`}
+												target='_blank'
+												style={{ display: font-size: '14px', 'inline-block', marginTop: '20px',marginLeft: '3px' }}>
+												SK8 RATZ
+											</a>
+										</small></p>}
 
 						<Col style={{ marginTop: "15px" }}>
 						<center>
