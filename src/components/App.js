@@ -208,12 +208,12 @@ useEffect(() => {
 									)}
 									
 									{ownerOf.length > 0 &&
-										<p><small>View your SK8 RAT on
+										<p><small>View your 
 											<a
 												href={`${openseaURL}/assets/${sk8Ratz._address}/${ownerOf[0]}`}
 												target='_blank'
-												style={{ display: 'inline-block', marginLeft: '3px' }}>
-												OpenSea
+												style={{ display: font-size: '14px', inline-block', marginTop: '20px',marginLeft: '3px' }}>
+												SK8 RATZ
 											</a>
 										</small></p>}
 									
