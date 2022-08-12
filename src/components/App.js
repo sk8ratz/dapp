@@ -206,6 +206,17 @@ useEffect(() => {
 									) : (
 										<button onClick={mintNFTHandler} className='mint-button mt-3'>Mint</button>
 									)}
+									
+									{ownerOf.length > 0 &&
+										<p><small>View your SK8 RAT on
+											<a
+												href={`${openseaURL}/assets/${sk8Ratz._address}/${ownerOf[0]}`}
+												target='_blank'
+												style={{ display: 'inline-block', marginLeft: '3px' }}>
+												OpenSea
+											</a>
+										</small></p>}
+									
 										</center>
 
 								</div>
