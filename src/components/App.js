@@ -213,7 +213,7 @@ useEffect(() => {
 
 						<center>
 						<p className="thesupply">
-						2971 / 3000 remaining | 0.01 ☰
+						2970 / 3000 remaining | 0.01 ☰
 						</p>
 						</center>
 						
