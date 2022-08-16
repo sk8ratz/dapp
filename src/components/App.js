@@ -7,6 +7,7 @@ import twitter from '../images/socials/twitter.svg'
 import os from '../images/socials/opensea.svg'
 import showcase from '../images/showcase.gif'
 import banner2 from '../images/banner2.png'
+import nft_cal from '../images/nft_cal.png'
 import '../App.css'
 import Sk8Ratz from '../abis/SK8.json'
 import config from '../config.json'
@@ -241,8 +242,14 @@ useEffect(() => {
 							<a href="https://etherscan.io/address/0x3431406545AD80b6a216DA322736C2Bf56962b02" target="_blank" rel="noopener noreferrer">
 							[VERIFIED SMART CONTRACT ADDRESS]</a></p></center>
 						</Col>
-						
-				</div>
+					</div>
+
+					<center>
+					<p className ="smartcontractaddress2">PARTNERED WITH
+					<a href="https://nftcalendar.io">
+					<img src={nft_cal} alt="NFTcalendar.io" className='nftcal'></img></a>
+					</p>
+					</center>
 
 			
 			<footer>
