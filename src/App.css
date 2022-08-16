@@ -259,6 +259,16 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     line-height: 15px;
 }
 
+.partners{
+    font-family: source-code-pro,monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    line-height: 15px;
+    margin: 15px;
+}
 
 
 .mainview {
@@ -284,7 +294,14 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
 .nftcal{
     max-width: 70px;
+    margin-left: 15px;
 }
+
+.whale{
+    max-width: 70px;
+    margin-right: 15px;
+}
+
 
 .text-center{
      font-size: 15px;
@@ -313,7 +330,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
-    overflow-x: hidden;
+    overflow-x: visible;
     scroll-behavior: smooth;
     font-family: "Rubik";
     display: flex;
@@ -402,5 +419,9 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     }
 }
 
+@media screen and (max-width: 600px) {
+    .whale {
 
-
+        max-width: 60px;      
+    }
+}
