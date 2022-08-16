@@ -8,6 +8,7 @@ import os from '../images/socials/opensea.svg'
 import showcase from '../images/showcase.gif'
 import banner2 from '../images/banner2.png'
 import nft_cal from '../images/nft_cal.png'
+import whale from '../images/whale.png'
 import '../App.css'
 import Sk8Ratz from '../abis/SK8.json'
 import config from '../config.json'
@@ -245,11 +246,17 @@ useEffect(() => {
 					</div>
 
 					<center>
-					<p className ="smartcontractaddress2">PARTNERED WITH
-					<a href="https://nftcalendar.io">
+				<p className ="smartcontractaddress2">
+
+				<a href="https://nextnftdrop.com/projects/sk8-ratz/" target="_blank" rel="noopener noreferrer">
+					<img src={whale} alt="Next NFT Drop" className='nftcal'></img></a>
+
+				PARTNERED WITH
+					
+					<a href="https://nftcalendar.io" target="_blank" rel="noopener noreferrer">
 					<img src={nft_cal} alt="NFTcalendar.io" className='nftcal'></img></a>
-					</p>
-					</center>
+				</p>
+				</center>
 
 			
 			<footer>
