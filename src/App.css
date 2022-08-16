@@ -313,7 +313,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
-    overflow-x: hidden;
+    overflow-x: visible;
     scroll-behavior: smooth;
     font-family: "Rubik";
     display: flex;
