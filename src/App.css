@@ -280,9 +280,11 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 .banner2{
     max-width: 30%;
     margin-top: 10px;
+}
 
-
-    }
+.nftcal{
+    max-width: 70px;
+}
 
 .text-center{
      font-size: 15px;
@@ -392,5 +394,13 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
         margin-top: 10px;        
     }
 }
+
+@media screen and (max-width: 600px) {
+    .nftcal {
+
+        max-width: 60px;      
+    }
+}
+
 
 
