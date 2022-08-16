@@ -246,13 +246,17 @@ useEffect(() => {
 					</div>
 
 					<center>
-				<p className ="smartcontractaddress2">
+				<p className ="partners">
+
+				IN PARTNERSHIP WITH
+
+				</p>
+
+				<p className="partners">
 
 				<a href="https://nextnftdrop.com/projects/sk8-ratz/" target="_blank" rel="noopener noreferrer">
-					<img src={whale} alt="Next NFT Drop" className='nftcal'></img></a>
+					<img src={whale} alt="Next NFT Drop" className='whale'></img></a>
 
-				PARTNERED WITH
-					
 					<a href="https://nftcalendar.io" target="_blank" rel="noopener noreferrer">
 					<img src={nft_cal} alt="NFTcalendar.io" className='nftcal'></img></a>
 				</p>
