@@ -29,7 +29,7 @@ html {
 body {
     background-size: cover;
     background-position: center, center;
-    background-image: url(images/bg-img.png);
+    background-image: url(images/bg-img.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
     min-height: 100vh;
@@ -308,7 +308,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     body {
     background-size: cover;
     background-position: center, center;
-    background-image: url(images/mobileBG.png);
+    background-image: url(images/mobileBG.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
     min-height: 100vh;
