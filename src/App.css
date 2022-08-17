@@ -426,7 +426,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
         max-height: 70vh;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10px;        
+        margin-top: 30px;        
     }
 }
 
