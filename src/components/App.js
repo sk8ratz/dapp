@@ -185,7 +185,10 @@ useEffect(() => {
 					</center>
 
 					
-
+					<center>
+						<p className="thesupply">
+						2968 / 3000 RATZ REMAINING						</p>
+						</center>
 
 						<div>
 				
@@ -214,11 +217,7 @@ useEffect(() => {
 
 							)}
 
-						<center>
-						<p className="thesupply">
-						2968 / 3000 remaining | 0.01 ☰
-						</p>
-						</center>
+						
 						
 						<center>
 						{ownerOf.length > 0 &&
@@ -246,19 +245,18 @@ useEffect(() => {
 						</Col>
 					</div>
 
+
+
 					<center>
 				
 
 				<p className="partners">
+				PARTNERED WITH<br></br>
 
-				<a href="https://nextnftdrop.com/projects/sk8-ratz/" target="_blank" rel="noopener noreferrer">
-					<img src={whale} alt="" className='whale'></img></a>
 
 					<a href="https://aspenft.io/" target="_blank" rel="noopener noreferrer">
 					<img src={aspen} alt="" className='aspen'></img></a>
 
-					<a href="https://nftcalendar.io" target="_blank" rel="noopener noreferrer">
-					<img src={nft_cal} alt="" className='nftcal'></img></a>
 				</p>
 				</center>
 
@@ -266,7 +264,7 @@ useEffect(() => {
 			<footer>
 				<hr></hr>
 					<center> <p> 
-						SK8 RATZ is icensed under
+						<strong>SK8 RATZ</strong> is icensed under
 						<a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"> CC BY-SA 4.0</a>
 					</p> </center>
 			</footer>
