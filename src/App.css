@@ -379,7 +379,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 @media screen and (max-width: 600px) {
     .os-logo {
         max-width: 25px;
-        margin-left: 25px;
+        margin-left: 15px;
         margin-top: 40px;
     }
 }
@@ -389,7 +389,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
         height: 30px;
         width: 65px;
         float: right;
-        margin-right: 25px;
+        margin-right: 15px;
         margin-top: 36px;
         font-size: 12px;
     }
@@ -443,4 +443,4 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
         max-width: 60px;      
     }
-}
+}   
