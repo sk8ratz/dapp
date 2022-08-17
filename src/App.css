@@ -47,8 +47,8 @@ hr {
 
 footer {
     font-size: 12px;
-    margin-top: -20px;
 }
+
 
 
 .flex {
@@ -234,7 +234,8 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     font-size: 12px;
     text-align: center;
     color: black;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -266,7 +267,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     font-size: 12px;
     text-align: center;
     color: black;
-    line-height: 15px;
+    margin-top: 20px;
 }
 
 
@@ -296,13 +297,27 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     margin-left: 50px;
 }
 
+.nftcal:hover {
+
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
 .whale{
     max-width: 70px;
     margin-right: 50px;
 }
 
+.whale:hover {
+
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
 .aspen{
     max-width: 120px;
+}
+.aspen:hover {
+
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
 }
 
 
@@ -334,6 +349,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     min-height: 100vh;
     min-width: 100vw;
     overflow-x: hidden;
+    overflow-y: scroll;
     scroll-behavior: smooth;
     font-family: "Rubik";
     display: flex;
@@ -346,6 +362,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     .banner2 {
         max-width: 47%;
         margin-top: 18px;
+        margin-right: 5px;
 
     }
 }
@@ -353,7 +370,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 @media screen and (max-width: 600px) {
     .twitter-logo {
         max-width: 25px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 39px;
     
        
@@ -370,11 +387,11 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
 @media screen and (max-width: 600px) {
     .button {
-        height: 36px;
-        width: 75px;
+        height: 30px;
+        width: 65px;
         float: right;
         margin-right: 25px;
-        margin-top: 30px;
+        margin-top: 36px;
         font-size: 12px;
     }
 }
@@ -400,7 +417,6 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 @media screen and (max-width: 600px) {
     footer {
         font-size: 12px;
-        margin-top: -20px;
     }
 }
 
