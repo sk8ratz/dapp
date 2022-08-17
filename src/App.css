@@ -47,7 +47,7 @@ hr {
 
 footer {
     font-size: 12px;
-    margin-top: auto;
+    margin-top: -20px;
 }
 
 
@@ -267,7 +267,6 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     text-align: center;
     color: black;
     line-height: 15px;
-    margin: 15px;
 }
 
 
@@ -294,12 +293,16 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
 .nftcal{
     max-width: 70px;
-    margin-left: 15px;
+    margin-left: 50px;
 }
 
 .whale{
     max-width: 70px;
-    margin-right: 15px;
+    margin-right: 50px;
+}
+
+.aspen{
+    max-width: 120px;
 }
 
 
@@ -330,7 +333,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
-    overflow-x: visible;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: "Rubik";
     display: flex;
@@ -396,7 +399,8 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
 @media screen and (max-width: 600px) {
     footer {
-        font-size: 10px;
+        font-size: 12px;
+        margin-top: -20px;
     }
 }
 
