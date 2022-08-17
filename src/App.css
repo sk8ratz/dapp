@@ -361,7 +361,6 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
     .banner2 {
         max-width: 47%;
         margin-top: 18px;
-        margin-right: 5px;
 
     }
 }
@@ -387,7 +386,7 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 @media screen and (max-width: 600px) {
     .button {
         height: 30px;
-        width: 65px;
+        width: 75px;
         float: right;
         margin-right: 15px;
         margin-top: 36px;
@@ -443,4 +442,4 @@ filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%
 
         max-width: 60px;      
     }
-}   
+}
