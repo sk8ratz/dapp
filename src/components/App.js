@@ -254,7 +254,7 @@ useEffect(() => {
 				PARTNERED WITH<br></br>
 
 
-					<a href="https://app.aspenft.io/" target="_blank" rel="noopener noreferrer">
+					<a href="https://aspenft.io/" target="_blank" rel="noopener noreferrer">
 					<img src={aspen} alt="" className='aspen'></img></a>
 
 				</p>
