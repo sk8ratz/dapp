@@ -187,7 +187,7 @@ useEffect(() => {
 					
 					<center>
 						<p className="thesupply">
-						2962 / 3000 RATZ REMAINING						</p>
+						2960 / 3000 RATZ REMAINING						</p>
 						</center>
 
 						<div>
