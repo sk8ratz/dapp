@@ -5,10 +5,59 @@
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {opacity: 1;}
 
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading.hide {
+  display: none;
+}
+
 html {
     font-family: "Rubik" !important;
     font-weight: 400;
     height: -webkit-fill-available;
+}
+
+.nav-container {
+display: flex;
+justify-content: center;
+}
+
+.nav-row {
+  display: flex;
+  width: 100%;
+}
+
+.nav-col1 {
+    width: 33.33%;
+    display: flex;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+.nav-col2 {
+    padding-top: 1rem;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-col3 {
+    display: flex;
+    justify-content: right;
+    width: 33.33%;
+  margin-top: 2rem;
 }
 
 body {
@@ -19,7 +68,7 @@ body {
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
-    overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
     font-family: "Rubik";
     display: flex;
@@ -28,32 +77,6 @@ body {
 
 hr {
     border: 0.5px solid black;
-}
-
-footer {
-    font-size: 12px;
-}
-
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav {
-    min-width: 100%;
-    display: flex;
-    margin-top: 5px;
-}
-
-nav ul li{
-    display: inline-block;
-    margin: 0px 20px;
-}
-
-.welcome {
-    min-height: 10vh;
-    scroll-snap-align: start;
 }
 
 .pleaseConnect {
@@ -65,30 +88,16 @@ nav ul li{
     margin-top: 25px;
     }
     
-.sub-header {
-    font-family: source-code-pro,monospace;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-}
-
 
 p{
     padding-top: '20px';
 }
 
-p5 {
-    color: white;
-    margin: auto;
-}
 
 a {
     color: blue;
     font-weight: 400;
     text-decoration: none;
-
     transition: all 250ms ease;
 }
 
@@ -127,6 +136,7 @@ a:hover {
 
 
 .button {
+    user-select: none;
   height: 42px;
   width: 100px;
   background-color: black;
@@ -139,9 +149,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  float: right;
-  margin-top: 30px;
-  margin-right: 70px;
+  margin-right: 2rem;
 }
 
 .button:hover {
@@ -150,6 +158,7 @@ a:hover {
 }
 
 .mint-button {
+    user-select: none;
     display: inline-block;
     height: 40px;
     width: 70px;
@@ -169,12 +178,11 @@ a:hover {
 }
 
 .twitter-logo {
-    max-width: 30px;
-    max-height: 30px;
+    user-select: none;
+    margin-left: 1.8rem;
+    max-width: 2rem;
     filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%) contrast(115%);    float: left;
-    margin-left: 40px;
-    margin-top: 30px;
-}
+   }
 
 .twitter-logo:hover {
 
@@ -182,14 +190,33 @@ a:hover {
 }
 
 .os-logo {
-    max-width: 30px;
-    max-height: 30px;
-    margin-left: 60px;
-    margin-top: 30px;
-    float: left;
+    user-select: none;
+    margin-left: 2rem;
+    max-height: 1.8rem;
+    max-width: 2rem;
     filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%) contrast(115%);}
 
 .os-logo:hover {
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.ratz-face {
+    user-select: none;
+    margin-left: 2rem;
+    max-height: 1.8rem;
+}
+
+.ratz-face:hover {
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.github-logo {
+    user-select: none;
+    margin-left: 2rem;
+    max-height: 1.8rem;
+}
+
+.github-logo:hover {
     filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
 }
 
@@ -228,16 +255,15 @@ a:hover {
 
 
 .showcase {
+    user-select: none;
     max-width: 450px;
     max-height: auto;
     align-content: center;
-    margin-left: 20px;
-    margin-right: auto;
 }
 
 .banner2{
-    max-width: 30%;
-    margin-top: 10px;
+    max-width: 90%;
+    user-select: none;
 }
 
 .text-center{
@@ -281,7 +307,44 @@ a:hover {
 
 /* Dynamic web flow */
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) and (min-width: 500px){
+    .twitter-logo{
+        display: none;
+    }
+    .github-logo{
+        display: none;
+    }
+    .banner2{
+    max-width: 95%;
+}
+
+    .os-logo{
+        margin-left: 1rem;
+    }
+.nav-col1{
+        width: 25%;
+    }
+    .nav-col3{
+        width: 25%;
+    }
+    .nav-col2{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav-col1{
+        width: 25%;
+    }
+    .nav-col3{
+        width: 25%;
+    }
+    .nav-col2{
+        width: 50%;
+    }
+
     body {
     background-size: cover;
     background-position: center, center;
@@ -290,38 +353,38 @@ a:hover {
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+    overflow:hidden;
     font-family: "Rubik";
     display: flex;
     flex-direction: column;
     }
 
      .banner2 {
-        max-width: 55%;
-        margin-top: 18px;
+       max-width: 100%;
     }
 
     .twitter-logo {
-        max-width: 30px;
-        margin-left: 15px;
-        margin-top: 39px;
+        display: none;
     }
 
     .os-logo {
-        max-width: 30px;
-        margin-left: 10px;
-        margin-top: 40px;
+        max-width: 7vw;
+        margin-left: 1rem;
+    }
+    .github-logo{
+        display: none;
+    }
+    .ratz-face{
+        max-width: 7vw;
+        margin-left: 1rem;
     }
 
     .button {
-        height: 35px;
-        width: 85px;
-        float: right;
-        margin-right: 15px;
-        margin-top: 36px;
-        font-size: 13px;
+        height: 2rem;
+        width: 4.6rem;
+        margin-right: 1rem;
+        margin-top: 0rem;
+        font-size: 0.8rem;
     }
     .thesupply {
         font-size: 13px;
@@ -340,6 +403,6 @@ a:hover {
         max-height: 70vh;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 30px;        
+        margin-top: 0px;        
     }
 }

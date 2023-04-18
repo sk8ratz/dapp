@@ -5,6 +5,8 @@ import Web3 from 'web3'
 import Web3EthContract from "web3-eth-contract";
 import twitter from '../images/socials/twitter.svg'
 import os from '../images/socials/opensea.svg'
+import ratz from '../images/socials/ratz.png'
+import github from '../images/socials/github.png'
 import showcase from '../images/showcase.gif'
 import banner2 from '../images/banner2.png'
 import '../App.css'
@@ -134,23 +136,36 @@ function App() {
     window.alert('Please install and connect to Metamask to mint SK8 RATZ.');
   }
 }
-
-	
 	
 useEffect(() => {
 	loadWeb3()
 	}, [account]);
 
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loading");
+  loader.classList.add("hide");
+});
+
+
 	return (
 		<body>
-			<row>
-			<center>
+			<div class="nav-container">
+			<div class="nav-row">
+			<div class="nav-col1">
+			<a href="http://sk8ratz.fun" target="_blank" rel="noopener noreferrer">
+            <img src={ratz} className="ratz-face" alt=""></img> </a>
+			<a href="http://github.com/sk8ratz" target="_blank" rel="noopener noreferrer">
+            <img src={github} className="github-logo" alt=""></img> </a>
 			<a href="http://opensea.io/collection/sk8ratz" target="_blank"  rel="noopener noreferrer"> <img src={os} className="os-logo" alt=""></img>        
            	</a>
 			<a href="http://www.twitter.com/sk8_ratz" target="_blank" rel="noopener noreferrer">
             <img src={twitter} className="twitter-logo" alt=""></img> </a>
+			</div>
+			<div class="nav-col2">
 			<a href="http://www.sk8ratz.fun/" target="_blank" rel="noopener noreferrer">
              <img src={banner2} className="banner2" alt=""></img> </a>
+	         </div>
+	         <div class="nav-col3">
 	         {account ? (
 	            <a href={`${explorerURL}/address/${account}`}
 	                target="_blank"
@@ -161,8 +176,9 @@ useEffect(() => {
 	            ) : (
 	                <button onClick={web3Handler} className="button">CONNECT</button>
 	            )}
-		    </center> 
-		    </row>
+	            </div>
+		    </div>
+		    </div>
 		    <center><img src={showcase} alt="Sk8 Ratz" className='showcase'></img></center>
 			<center><p className="thesupply">3000 RATZ | 0.01 ETH</p></center>
 			<div>
