@@ -68,7 +68,8 @@ body {
     background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     font-family: "Rubik";
     display: flex;
@@ -204,6 +205,7 @@ a:hover {
     user-select: none;
     margin-left: 2rem;
     max-height: 1.8rem;
+    max-width: 2rem;
 }
 
 .ratz-face:hover {
@@ -356,6 +358,7 @@ a:hover {
     height: 100vh;
     width: 100vw;
     overflow-x:hidden;
+    overflow-y: auto;
     font-family: "Rubik";
     display: flex;
     flex-direction: column;
@@ -370,7 +373,7 @@ a:hover {
     }
 
     .os-logo {
-        max-width: 7vw;
+        max-width: 8vw;
         margin-left: 1rem;
     }
     .github-logo{
@@ -406,5 +409,8 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
         margin-top: 1rem;        
+    }
+    .thesupply{
+        margin-top: -0.5rem;
     }
 }
