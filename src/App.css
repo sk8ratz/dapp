@@ -1,0 +1,519 @@
+/* Styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rubik:wght@300;400;700&display=swap');
+@import url("https://use.typekit.net/pwz3byy.css");
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {opacity: 1;}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+    background-position: center, center;
+    background-image: url(images/bg-img.jpg);
+    background-repeat: repeat;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading.hide {
+  display: none;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 20px;
+  height: 2.5px;
+  margin:4px auto;
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+  background-color: black;
+  border-radius: 3px;
+}
+
+.nav-menu{
+  display: none;
+}
+
+
+html {
+    font-family: "Rubik" !important;
+    font-weight: 400;
+    height: -webkit-fill-available;
+}
+
+.nav-container {
+display: flex;
+justify-content: center;
+}
+
+.nav-row {
+  display: flex;
+  width: 100%;
+}
+
+.nav-col1 {
+    width: 33.33%;
+    display: flex;
+    justify-content: left;
+    margin-top: 2rem;
+}
+.nav-col-og{
+    display: flex;
+    justify-content: left;
+}
+
+.nav-col2 {
+    padding-top: 1rem;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-col3 {
+    display: flex;
+    justify-content: right;
+    width: 33.33%;
+  margin-top: 2rem;
+}
+
+body {
+    background-size: cover;
+    background-position: center, center;
+    background-image: url(images/bg-img.jpg);
+    background-repeat: repeat;
+        background-attachment: scroll;
+
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 0.5px solid black;
+}
+
+.pleaseConnect {
+    font-family: source-code-pro,monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8ff80a;
+    margin-top: 25px;
+    }
+    
+
+p{
+    padding-top: '20px';
+}
+
+
+a {
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 250ms ease;
+}
+
+a:hover {
+    color: #8ff80a;
+    transition: 0.2s ease;
+}
+
+.qty2{
+
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: .5em;;
+    font-size: 16px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.error {
+  background-color: #ffe7e6;
+  border: 1px solid #ff5656;
+  border-radius: 4px;
+  color: #ff5656;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.error span {
+  margin: auto;
+}
+
+
+.button {
+    user-select: none;
+  height: 42px;
+  width: 100px;
+  background-color: black;
+  color: #8ff80a;
+  border: none;
+  border-radius: .5em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.button:hover {
+    background: #8ff80a;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.mint-button {
+    user-select: none;
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    background-color: black;
+    color: #8ff80a;
+    border: none;
+    border-radius: .5em;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.mint-button:hover {
+    background: #8ff80a;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.twitter-logo {
+    user-select: none;
+    margin-left: 1.8rem;
+    max-width: 2rem;
+    filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%) contrast(115%);    float: left;
+   }
+
+.twitter-logo:hover {
+transition: 0.2s ease;
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.os-logo {
+    user-select: none;
+    margin-left: 2rem;
+    max-height: 1.8rem;
+    max-width: 2rem;
+    filter: invert(0%) sepia(83%) saturate(7500%) hue-rotate(210deg) brightness(115%) contrast(115%);}
+
+.os-logo:hover {
+    transition: 0.2s ease;
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.ratz-face {
+    user-select: none;
+    margin-left: 2rem;
+    max-height: 1.8rem;
+    max-width: 2rem;
+}
+
+.ratz-face:hover {
+    transition: 0.2s ease;
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.github-logo {
+    user-select: none;
+    margin-left: 2rem;
+    max-height: 1.8rem;
+}
+
+.github-logo:hover {
+    transition: 0.2s ease;
+    filter: invert(98%) sepia(69%) saturate(6080%) hue-rotate(26deg) brightness(97%) contrast(101%);
+}
+
+.thesupply{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.smartcontractaddress1{
+    font-family: source-code-pro,monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    line-height: 24px;
+    word-wrap:break-word;
+}
+
+.smartcontractaddress2{
+    font-family: source-code-pro,monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    line-height: 15px;
+}
+
+
+.showcase {
+    user-select: none;
+    max-width: 450px;
+    max-height: auto;
+    align-content: center;
+}
+
+.banner2{
+    max-width: 90%;
+    user-select: none;
+}
+
+.text-center{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.mintPortal{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.linebreak{
+    line-height: 16px;
+}
+
+.holders-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+.holders-container a {
+    color: blue;
+  font-size: 0.9rem;
+    background-color: rgba(0,0,0,0);
+    font-weight: 500;
+}
+
+.container-link {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 3px;
+    background-color: black;
+    color: #8ff80a;
+    font-weight: 600;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 0.5em;
+}
+
+.container-link:hover {
+    background-color: #8ff80a;
+    color: black;
+    transition: 0.2s ease;
+}
+
+/* Dynamic web flow */
+
+
+
+@media screen and (max-width: 830px) {
+
+#loading{
+    background-size: cover;
+    background-position: center, center;
+    background-image: url(images/mobileBG.jpg);
+}
+
+.hamburger{
+  display: block;
+  position: absolute;
+  top: 40px;
+  right:30px;
+  z-index: 9998;
+  width: 25px;
+    height: 23px;
+    border-radius: 3px;
+    background-color: rgba(16,12,8,0.85);
+}
+.hamburger .bar{
+    background-color: #8ff80a;
+}
+
+.hamburger.active .bar{
+  background-color:#8ff80a;
+  transition: 0.3s ease;
+}
+.hamburger.active{
+    transition: 0.5s ease;
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(6.5px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+.nav-menu-og{
+  display: none;
+}
+.nav-menu{
+  display: flex;
+  position: fixed;
+  left:-100%;
+  top:0;
+  gap:0;
+  flex-direction: column;
+  background-color: rgba(16,12,8,0.85);
+  width: 40vw;
+  height: 100vh;
+  transition: left 0.3s ease;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-menu a{
+  color: #8ff80a;
+  font-size: 0.9rem;
+}
+.nav-menu-text{
+    margin-left: -18px;
+  margin-top: 75px;
+  width: 100%;
+  text-align: left;
+
+}
+
+.nav-item{
+  margin:16px 0;
+  height: 30px;
+  border-bottom: 1px solid rgba(143, 248, 10, 0.3); 
+}
+
+.nav-menu.active{
+  left:0;
+}
+
+    .nav-container{
+        margin-top: 0.5rem;
+    }
+
+    .nav-col1{
+        width: 25%;
+    }
+    .nav-col3{
+        width: 25%;
+    }
+    .nav-col2{
+        width: 50%;
+    }
+    .nav-col3 .button{
+        display: none;
+    }
+
+    body {
+    background-size: cover;
+    background-position: center, center;
+    background-image: url(images/mobileBG.jpg);
+    background-attachment: scroll;
+    background-color: #8ff80a;
+    height: 100vh;
+    width: 100vw;
+    overflow-x:hidden;
+    overflow-y: auto;
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: column;
+    }
+
+     .banner2 {
+       max-width: 100%;
+    }
+
+    .twitter-logo {
+        display: none;
+    }
+
+    .os-logo {
+        display:none;
+    }
+    .github-logo{
+        display: none;
+    }
+    .ratz-face{
+        display:none;
+    }
+
+    .button {
+        height: 2rem;
+        width: 4.6rem;
+        margin-right: 1rem;
+        margin-top: 0rem;
+        font-size: 0.8rem;
+    }
+    .thesupply {
+        font-size: 13px;
+    }
+
+     .smartcontractaddress1 {
+        font-size: 12px;
+    }
+
+     .smartcontractaddress2 {
+        font-size: 12px;
+    }
+
+    .showcase {
+        max-width: 450px;
+        max-height: 70vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;        
+    }
+    .thesupply{
+        margin-top: -0.5rem;
+    }
+}
