@@ -367,13 +367,14 @@ transition: 0.2s ease;
 .hamburger{
   display: block;
   position: absolute;
-  top: 40px;
-  right:30px;
+  top: 45px;
+  right:20px;
   z-index: 9998;
   width: 25px;
     height: 23px;
     border-radius: 3px;
     background-color: rgba(16,12,8,0.85);
+    transform: scale(1.15);
 }
 .hamburger .bar{
     background-color: #8ff80a;
@@ -385,6 +386,9 @@ transition: 0.2s ease;
 }
 .hamburger.active{
     transition: 0.5s ease;
+}
+.hamburger.active ~ body{
+    overflow-y: hidden;
 }
 
 .hamburger.active .bar:nth-child(2){
@@ -442,13 +446,14 @@ transition: 0.2s ease;
     }
 
     .nav-col1{
-        width: 25%;
+        width: 17.5%;
     }
     .nav-col3{
-        width: 25%;
+        width: 17.5%;
     }
     .nav-col2{
-        width: 50%;
+        padding-top: 10px;
+        width: 65%;
     }
     .nav-col3 .button{
         display: none;
@@ -459,7 +464,7 @@ transition: 0.2s ease;
     background-position: center, center;
     background-image: url(images/mobileBG.jpg);
     background-attachment: scroll;
-    background-color: #8ff80a;
+    background-color: none;
     height: 100vh;
     width: 100vw;
     overflow-x:hidden;
