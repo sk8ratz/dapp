@@ -1,6 +1,6 @@
 {
   "name": "sk8_ratz",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.12.13",
