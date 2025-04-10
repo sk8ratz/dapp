@@ -1,6 +1,7 @@
 {
   "name": "sk8_ratz",
   "version": "0.2.0",
+  "homepage": "https://sk8ratz.github.io/dapp",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.12.13",
